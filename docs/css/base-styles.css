@@ -1,0 +1,55 @@
+:root {
+    /* BASE */
+    --base-font-size: 18px;
+    --base-line-height: 1.7;
+
+    /* COVER */
+    --cover-max-width: 50em;
+    --cover-background-color: var(--base-background-color);
+    --cover-heading-color: var(--base-color);
+
+    --cover-button-primary-background: var(--cover-button-background) !important;
+    --cover-button-primary-border: var(--cover-button-border) !important;
+    --cover-button-primary-color: var(--cover-button-color) !important;
+    --cover-button-background--hover: var(--base-color);
+    --cover-button-primary-background--hover: var(--cover-button-background--hover);
+    --cover-button-color--hover: var(--cover-background-color);
+    --cover-button-primary-color--hover: var(--cover-button-color--hover);
+
+}
+
+div.cover-main p img[alt="logo"] {
+    border-radius: 25%;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --theme-color: white;
+        --base-background-color: #28303d;
+        --base-color: white;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --theme-color: #28303d;
+        --base-background-color: rgb(243, 243, 243);
+        --base-color: #28303d;
+    }
+}
+
+@media (min-width:320px) {
+    :root {
+        --cover-heading-font-size: var(--font-size-xl);
+    }
+
+    div.cover-main p img[alt="logo"] {
+        max-width: 50%;
+    }
+}
+
+@media (min-width:961px) {
+    div.cover-main p img[alt="logo"] {
+        max-width: 25%;
+    }
+}

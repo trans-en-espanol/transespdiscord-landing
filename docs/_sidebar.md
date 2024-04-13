@@ -1,0 +1,3 @@
+- [Información sobre el servidor](informacion.md)
+- [Normas](normas.md)
+- [Contacto](contacto.md)
