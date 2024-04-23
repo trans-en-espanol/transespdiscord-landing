@@ -31,6 +31,11 @@ article#main>p {
     text-align: justify;
 }
 
+article#main span.material-symbols-outlined {
+    font-size: var(--base-font-size);
+    line-height: var(--base-line-height);
+}
+
 @media (prefers-color-scheme: dark) {
     :root {
         --theme-color: white;
