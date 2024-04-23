@@ -22,6 +22,15 @@ div.cover-main p img[alt="logo"] {
     border-radius: 25%;
 }
 
+.sidebar>h1 img {
+    border-radius: 25%;
+    max-width: 35%;
+}
+
+article#main>p {
+    text-align: justify;
+}
+
 @media (prefers-color-scheme: dark) {
     :root {
         --theme-color: white;
