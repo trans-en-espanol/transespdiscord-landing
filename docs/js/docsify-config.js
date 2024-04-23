@@ -4,6 +4,7 @@ window.$docsify = {
     name: "Trans en Español",
     repo: repository,
     logo: "assets/img/logo.webp",
+    homepage: "informacion.md",
     coverpage: true,
     onlyCover: true,
     loadSidebar: true,
