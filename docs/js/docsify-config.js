@@ -10,5 +10,6 @@ window.$docsify = {
     loadSidebar: true,
     autoHeader: true,
     auto2top: true,
-    subMaxLevel: 2
+    subMaxLevel: 2,
+    notFoundPage: true
 }
