@@ -6,13 +6,13 @@ Disponemos de una grandísima cantidad de recursos para buena parte de los país
 
 ## ¿Qué nos caracteriza?
 
-<i class="fa-solid fa-eye-slash"></i> **Anónimo**: No pedimos datos identificativos.
+<span class="material-symbols-outlined">visibility_off</span> **Anónimo**: No pedimos datos identificativos.
 
-<i class="fa-solid fa-user-shield"></i> **Seguro**: Moderamos constantemente.
+<span class="material-symbols-outlined">verified_user</span> **Seguro**: Moderamos constantemente.
 
-<i class="fa-solid fa-users"></i> **Comunitario**: Somos una comunidad muy unida.
+<span class="material-symbols-outlined">groups</span> **Comunitario**: Somos una comunidad muy unida.
 
-<i class="fa-solid fa-folder-open"></i> **Recursos**: Hemos recopilado [muchos recursos útiles](https://recursos.transespdiscord.net/).
+<span class="material-symbols-outlined">folder_open</span> **Recursos**: Hemos recopilado [muchos recursos útiles](https://recursos.transespdiscord.net/).
 
 ## ¿Cómo puedes unirte?
 
