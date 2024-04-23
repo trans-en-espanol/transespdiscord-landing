@@ -4,44 +4,49 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'unsafe-inline' 'self' https://cdn.jsdelivr.net/ https://unpkg.com/ https://kit.fontawesome.com/; object-src 'none'">
 
     <!-- HTML Meta Tags -->
     <title>Trans en Español</title>
+
+    <!-- SEO -->
+    <meta itemprop="name" content="Trans en Español">
+    <meta property="og:title" content="Trans en Español">
+    <meta name="twitter:title" content="Trans en Español">
+
+    <meta name="description" content="Servidor de Discord seguro para personas trans que hablan español. Anónimo, seguro, y comunitario. Muchos recursos." />
+    <meta itemprop="description" content="Servidor de Discord seguro para personas trans que hablan español. Anónimo, seguro, y comunitario. Muchos recursos.">
+    <meta property="og:description" content="Servidor de Discord seguro para personas trans que hablan español. Anónimo, seguro, y comunitario. Muchos recursos.">
+    <meta name="twitter:description" content="Servidor de Discord seguro para personas trans que hablan español. Anónimo, seguro, y comunitario. Muchos recursos.">
+
+    <meta property="og:url" content="https://www.transespdiscord.net/">
+  
+    <meta itemprop="image" content="https://raw.githubusercontent.com/trans-en-espanol/transespdiscord-landing/main/docs/assets/img/logo.webp">
+    <meta property="og:image" content="https://raw.githubusercontent.com/trans-en-espanol/transespdiscord-landing/main/docs/assets/img/logo.webp">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/trans-en-espanol/transespdiscord-landing/main/docs/assets/img/logo.webp">
+  
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
     
     <!-- Icon -->
     <link rel="icon" href="assets/img/favicon.webp">
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
-    <link rel="stylesheet" media="(prefers-color-scheme: light)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
-    <link rel="stylesheet" href="css/base-styles.css">
+    <link rel="stylesheet" media="print" onload="this.media='(prefers-color-scheme: dark)'" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+    <link rel="stylesheet" media="print" onload="this.media='(prefers-color-scheme: light)'" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+    <link rel="stylesheet" media="print" onload="this.media='all'" href="css/base-styles.css">
 
     <!-- Scripts -->
-    <script src="https://kit.fontawesome.com/64df922db4.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/64df922db4.js" crossorigin="anonymous" async></script>
   </head>
 
   <body>
     <div id="app">Cargando...</div>
 
-    <script>
-      window.$docsify = {
-        name: "Trans en Español",
-        repo: "trans-en-espanol/transespdiscord-landing",
-        coverpage: true,
-        onlyCover: true,
-        loadSidebar: true,
-        autoHeader: true,
-        subMaxLevel: 2,
-        search: {
-          placeholder: "Escribe aquí para buscar",
-          noData: "Sin resultados."
-        }
-      }
-    </script>
-
+    <script src="js/docsify-config.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js" defer></script>
   </body>
 </html>
