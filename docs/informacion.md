@@ -16,4 +16,4 @@ Disponemos de una grandísima cantidad de recursos para buena parte de los país
 
 ## ¿Cómo puedes unirte?
 
-Puedes unirte [haciendo clic aquí](https://discord.gg/qUDesVm).
+Puedes unirte [haciendo clic aquí](https://www.transespdiscord.net/servidor).
